@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaprekar's constant</title>
+    
+    <link rel="stylesheet" type="text/css" href="/kaprekar.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="formContainer">
+        <form>
+          <h1>Kaprekar's Constant</h1><span id="know"><a href="https://brilliant.org/wiki/kaprekars-constant/#:~:text=Kaprekar%20constant%2C%20or%206174%2C%20i[…]6174.%20Take%20a%204-digit%20number%20like%203215">Know More</a></span>
+          <div class="enterText"><label for="number">Enter the number : </label>
+          <input type="text" id="number" />
+        </div>
+          <div class="generateButton"><input type="button" id="generate" value="generate" onclick="displayOutput()"></div>
+          <div class="resetButton"><button type="reset" onclick="clearOnReset()" id="reset">Reset</button></div>
+       </form>
+      </div>
+      <div id="display1"></div>
+      <div id="display2"></div>
+      <div id="solution"></div>
+      
+    </div>
+
+    <script  src="/kaprekar.js"></script>
+  </body>
+</html>
